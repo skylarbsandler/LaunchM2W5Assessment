@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace M2W5Assessment
 {
-    public class Concert
+    public class Performer
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public DateTime ShowDate { get; set; }
-        public List<Performer> Performers { get; set; } = new List<Performer>();
+        public string Genre { get; set; }
+        public List<Concert> Concerts { get; set; } = new List<Concert>();
     }
 }
